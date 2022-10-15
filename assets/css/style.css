@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 nav{
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(78, 94, 182, 0.1);
     position: fixed;
     width: 100%;
     height: 50px;
@@ -25,12 +25,13 @@ ul{
 }
 body{
    display: flex;
-   justify-content: center;
-   align-items: center;
+   /* justify-content: center;
+   align-items: center; */
    min-height: 100vh;
-   background: linear-gradient(45deg, red, blue);
+   background: linear-gradient(45deg, rgb(53, 7, 7), rgb(5, 5, 34));
    overflow: hidden;
    color: white;
+
 }
 .searchBox{
     position: relative;
@@ -39,7 +40,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
+    transition: .6s;
     top: 0px;
 }
 .searchBox:hover{
